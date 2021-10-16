@@ -179,8 +179,8 @@ public class ProtocolManagerImpl implements ProtocolManager {
         registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18_21w38a, ProtocolVersion.v1_17_1);
         registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18_21w39a, ProtocolVersion.v1_17_1);
         registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18_21w40a, ProtocolVersion.v1_17_1);
-        registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18_21w41a, ProtocolVersion.v1_17_1);
-        registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18, ProtocolVersion.v1_17_1);
+        //registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18_21w41a, ProtocolVersion.v1_17_1);
+        //registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18, ProtocolVersion.v1_17_1);
     }
 
     @Override
