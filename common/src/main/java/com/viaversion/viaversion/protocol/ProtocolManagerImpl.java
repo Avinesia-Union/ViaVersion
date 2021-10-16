@@ -168,7 +168,19 @@ public class ProtocolManagerImpl implements ProtocolManager {
 
         registerProtocol(new Protocol1_17To1_16_4(), ProtocolVersion.v1_17, ProtocolVersion.v1_16_4);
         registerProtocol(new Protocol1_17_1To1_17(), ProtocolVersion.v1_17_1, ProtocolVersion.v1_17);
-        registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18, ProtocolVersion.v1_17_1);
+        registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18_ex1, ProtocolVersion.v1_17_1);
+        registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18_ex2, ProtocolVersion.v1_18_ex1);
+        registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18_ex3, ProtocolVersion.v1_18_ex2);
+        registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18_ex4, ProtocolVersion.v1_18_ex3);
+        registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18_ex5, ProtocolVersion.v1_18_ex4);
+        registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18_ex6, ProtocolVersion.v1_18_ex5);
+        registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18_ex7, ProtocolVersion.v1_18_ex6);
+        registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18_21w37a, ProtocolVersion.v1_18_ex7);
+        registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18_21w38a, ProtocolVersion.v1_18_21w37a);
+        registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18_21w39a, ProtocolVersion.v1_18_21w38a);
+        registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18_21w40a, ProtocolVersion.v1_18_21w39a);
+        registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18_21w41a, ProtocolVersion.v1_18_21w40a);
+        registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18, ProtocolVersion.v1_18_21w40a);
     }
 
     @Override
