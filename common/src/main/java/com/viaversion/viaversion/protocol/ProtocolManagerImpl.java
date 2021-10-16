@@ -168,7 +168,7 @@ public class ProtocolManagerImpl implements ProtocolManager {
 
         registerProtocol(new Protocol1_17To1_16_4(), ProtocolVersion.v1_17, ProtocolVersion.v1_16_4);
         registerProtocol(new Protocol1_17_1To1_17(), ProtocolVersion.v1_17_1, ProtocolVersion.v1_17);
-        registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18_ex1, ProtocolVersion.v1_17_1);
+        registerProtocol(new Protocol1_18To1_17_1(),  Arrays.asList(ProtocolVersion.v1_18_ex1.getVersion(), ProtocolVersion.v1_18_ex2.getVersion(), ProtocolVersion.v1_18_ex3.getVersion(), ProtocolVersion.v1_18_ex4.getVersion(), ProtocolVersion.v1_18_ex5.getVersion(), ProtocolVersion.v1_18_ex6.getVersion(), ProtocolVersion.v1_18_ex7.getVersion(), ProtocolVersion.v1_18_21w37a.getVersion(), ProtocolVersion.v1_18_21w38a.getVersion(), ProtocolVersion.v1_18_21w39a.getVersion(), ProtocolVersion.v1_18_21w40a.getVersion(), ProtocolVersion.v1_18_21w41a.getVersion(), ProtocolVersion.v1_9_2.getVersion()), ProtocolVersion.v1_17_1.getVersion());;
         registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18_ex2, ProtocolVersion.v1_17_1);
         registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18_ex3, ProtocolVersion.v1_17_1);
         registerProtocol(new Protocol1_18To1_17_1(), ProtocolVersion.v1_18_ex4, ProtocolVersion.v1_17_1);
