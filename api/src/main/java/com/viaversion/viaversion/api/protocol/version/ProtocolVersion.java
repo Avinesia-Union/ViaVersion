@@ -89,8 +89,8 @@ public class ProtocolVersion {
     public static final ProtocolVersion v1_18_21w38a = register(757, 42, "1.18-21w38a");
     public static final ProtocolVersion v1_18_21w39a = register(757, 43, "1.18-21w39a");
     public static final ProtocolVersion v1_18_21w40a = register(757, 44, "1.18-21w40a");
-    public static final ProtocolVersion v1_18_21w41a = register(757, 45, "1.18-21w41a");
-    public static final ProtocolVersion v1_18 = register(757, 45, "1.18");
+    //public static final ProtocolVersion v1_18_21w41a = register(757, 45, "1.18-21w41a");
+    //public static final ProtocolVersion v1_18 = register(757, 45, "1.18");
     public static final ProtocolVersion unknown = register(-1, "UNKNOWN");
 
     public static ProtocolVersion register(int version, String name) {
