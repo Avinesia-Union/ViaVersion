@@ -1,4 +1,4 @@
-# ViaVersion - Spigot, Sponge, BungeeCord, Velocity
+# ViaVersion - for Murbyte
 
 [![Latest Release](https://img.shields.io/github/v/release/ViaVersion/ViaVersion)](https://viaversion.com)
 [![Build Status](https://github.com/ViaVersion/ViaVersion/actions/workflows/gradle.yml/badge.svg?branch=master)](https://github.com/ViaVersion/ViaVersion/actions)
